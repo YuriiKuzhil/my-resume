@@ -5,122 +5,202 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My resume</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <p>Hello, I am</p>
-        <h1>
-          Yurii <br />
-          Kuzhil
-        </h1>
-        <p>Front-End Developer</p>
-        <ul>
-          <li>
-            <a href="">Facebook</a>
-          </li>
-          <li>
-            <a href="">Instagram</a>
-          </li>
-          <li>
-            <a href="">GitHub</a>
-          </li>
-
-          <li>
-            <a href="">LinkedIn</a>
-          </li>
-        </ul>
-        <nav>
-          <ul>
-            <li>
-              <a href="">About me</a>
+    <main class="main">
+      <aside class="aside">
+        <div class="img-wrapper">
+          <img class="image" src="./images/me.jpg" alt="my photo" />
+        </div>
+        <section class="aside-section">
+          <h2 class="skills-title">Skills</h2>
+          <ul class="list">
+            <li class="skills-list__item">
+              <h3 class="skills-item__title">Tech Skills</h3>
+              <ul class="skills-item__list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>GIT</li>
+                <li>Sass</li>
+                <li>JavaScript</li>
+                <li>Parcel</li>
+              </ul>
             </li>
             <li>
-              <a href="">Work Experience</a>
-            </li>
-            <li>
-              <a href="">Education</a>
-            </li>
-            <li>
-              <a href="">Skills</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
+              <h3 class="skills-item__title">Soft Skills</h3>
+              <ul class="skills-item__list">
+                <li>Scrum</li>
+                <li>Agile</li>
+                <li>Teamwork</li>
+                <li>Discipline</li>
+                <li>Ability to learn quickly</li>
+              </ul>
             </li>
           </ul>
-        </nav>
-      </div>
-    </header>
+        </section>
+        <section>
+          <h2 class="contacts-title">contacts</h2>
+          <address class="adrress">
+            <p>
+              <svg width="15" height="15">
+                <use href="./images/icons.svg#icon-home3"></use>
+              </svg>
+              <span>Address:</span>
 
-    <main class="main">
-      <section>
-        <div class="container">
-          <h2>About me</h2>
+              Zhytomyr, st.Myru, 22, UKR
+            </p>
+            <ul class="list">
+              <li>
+                <svg width="15" height="15">
+                  <use href="./images/icons.svg#icon-envelop"></use>
+                </svg>
+                <span>Email:</span>
+                <a class="link" href="mailto:yuriikuzhil@gmail.com">
+                  yuriikuzhil@gmail.com</a
+                >
+              </li>
+              <li>
+                <svg width="15" height="15">
+                  <use href="./images/icons.svg#icon-mobile"></use>
+                </svg>
+                <span>Tel:</span>
+                <a class="link" href="tel:++380969928661"> +380969928661</a>
+              </li>
+            </ul>
+          </address>
 
-          <img class="image" src="" alt="" />
-          <p>
+          <li></li>
+        </section>
+      </aside>
+      <div>
+        <section class="about-me">
+          <h1 class="about-me__title">Yurii Kuzhil</h1>
+          <p class="about-me__description">Front-End Developer</p>
+          <p class="about-me__text">
             Hi, I'm Yurii and I future Front-End Developer. I have very strong
             motavation and great desire to acquire this profession and I'm sure
             that I'm on the right way. I'm ready to study a lot and sleep a
             little.
           </p>
-          <ul>
-            <li><span>Name:</span>Yurii Kuzhil</li>
-            <li>
-              <span>Email:</span>
-              <a href="mailto:yuriikuzhil@gmail.com">yuriikuzhil@gmail.com</a>
+          <ul class="list socials-list">
+            <li class="socials-list__item">
+              <a class="link socials-list__link" href="">
+                <svg width="40" height="40">
+                  <use href="./images/icons.svg#icon-facebook2"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <span>Tel:</span>
-              <a href="tel:++380969928661">+380969928661</a>
+            <li class="socials-list__item">
+              <a class="link socials-list__link" href="">
+                <svg width="40" height="40">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li><span>Date of Birth:</span>Jan 22,1992</li>
-            <li><span>Address:</span>Zhytomyr, Myru Avenue, 22, UKR</li>
+            <li class="socials-list__item">
+              <a class="link socials-list__link" href="">
+                <svg width="40" height="40">
+                  <use href="./images/icons.svg#icon-github"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="socials-list__item">
+              <a class="link socials-list__link" href="">
+                <svg width="40" height="40">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
           </ul>
-        </div>
-      </section>
-      <section>
-        <h2>Work Experience</h2>
-      </section>
-      <section>
-        <h2>Education</h2>
-        <div class="container">
-          <ul>
+        </section>
+        <section class="section">
+          <h2 class="section-title">Work Experience</h2>
+          <ul class="list work-experience-list">
+            <li class="work-experience-item">
+              <h3 class="work-experience-item__title">
+                Engineer of the technical department<span
+                  >November 2017 — till present time</span
+                >
+              </h3>
+
+              <p>Kromberg & Schubert Zhytomyr</p>
+
+              <ul class="list">
+                <li class="work-item__responsibilities">
+                  systematize, classify and keep records of technical
+                  information received from the intermediary;
+                </li>
+                <li class="work-item__responsibilities">
+                  work with current and planned changes of working
+                  documentation;
+                </li>
+                <li class="work-item__responsibilities">
+                  develop and provide production with technical instructions and
+                  operating instructions
+                </li>
+                <li class="work-item__responsibilities">
+                  optimize production processes
+                </li>
+              </ul>
+            </li>
+            <li class="work-experience-item">
+              <h3 class="work-experience-item__title">
+                CNC machine operator <span>October 2016 — November 2017</span>
+              </h3>
+              <p>VENTS,Ventilation systems (Industry and Manufacturing)</p>
+
+              <ul class="list">
+                <li class="work-item__responsibilities">
+                  Conducting the processing of parts on machine tools with
+                  numerical control.
+                </li>
+                <li class="work-item__responsibilities">
+                  Machine control with numerical control.
+                </li>
+                <li class="work-item__responsibilities">
+                  Maintenance of numerically controlled machine tools
+                </li>
+                <li class="work-item__responsibilities">
+                  Selection and installation and replacement of the required
+                  tool
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section">
+          <h2 class="section-title">Education</h2>
+
+          <ul class="list">
             <li>
-              <p>
+              <h3 class="education-item__title">
                 National Technical University of Ukraine 'Kyiv Polytechnic
                 Institute'​
-              </p>
+                <span>September 2009 - June 2015</span>
+              </h3>
               <p>Technological engineer</p>
-              <p>September 2009 - June 2015</p>
             </li>
             <li>
-              <p>Course in IT-school "GOIT"</p>
+              <h3 class="education-item__title">
+                Course in IT-school "GOIT"
+                <span>May 2021 - till present time</span>
+              </h3>
               <p>Fullstack online</p>
-              <p>May 2021</p>
+              <p></p>
             </li>
           </ul>
-        </div>
-      </section>
-      <section>
-        <h2>Skills</h2>
-      </section>
-    </main>
-    <footer>
-      <div class="container">
-        <address>
-          <p></p>
-          <ul>
-            <li>
-              <a href="mailto:yuriikuzhil@gmail.com">yuriikuzhil@gmail.com</a>
-            </li>
-            <li>
-              <a href="tel:++380969928661">+380969928661</a>
-            </li>
-          </ul>
-        </address>
+        </section>
       </div>
-    </footer>
+    </main>
   </body>
 </html>
